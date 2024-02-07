@@ -1,0 +1,1 @@
+python main_generate.py -pkt pockets/Mpro_new_new/Mpro_new_pocket15.pdb -lig pockets/Mpro_new_new/Mpro-6-42_1_ligand_kekulized.sdf --idx "[9, 12, 17]" --ckpt ./big-ckpt_new/150000.pt -n 500 --name Mpro_new_generate_500 --root_path gen_results_new -d cuda:0 -at 5.0 -bt 1.0 --max_atom_num 35 -ft 0.5 -cm True --with_print False
